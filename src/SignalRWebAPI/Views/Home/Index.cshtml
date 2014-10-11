@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    
+</div>
+
+<div id="appArea" class="row" style="display: none">
+    <div class="col-md-4">
+        <div id="webapiCalls">
+            <h3>WebAPI Calls</h3>
+            
+            <a id="callChannelA" href="#">Channel A</a>
+            <br />
+            
+            <a id="callChannelB" href="#">Channel B</a>
+            <br />
+            
+            <a id="callChannelC" href="#">Channel C</a>
+            <br />
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div id="messages">
+            <h3>Messages</h3>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div id="registerForNotification">
+            <h3>Register For Notification</h3>
+
+            <a id="registerChannelA" href="#">Channel A</a>
+            <br />
+
+            <a id="registerChannelB" href="#">Channel B</a>
+            <br />
+
+            <a id="registerChannelC" href="#">Channel C</a>
+            <br />
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script src="~/Scripts/app/WebApiClient.js"></script>
+    <script src="~/Scripts/app/Init.js"></script>
+}

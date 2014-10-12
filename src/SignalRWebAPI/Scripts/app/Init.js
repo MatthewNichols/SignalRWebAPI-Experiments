@@ -5,7 +5,7 @@
 
     //Called by server-side hub when a registered channel is called on the WebApi
     channelHub.client.receiveMessage = function (message) {
-        console.log("recieveMessage", message);
+        utilities.log("recieveMessage " + message);
     };
 
     //Activate the Hub connection and open the UI when complete

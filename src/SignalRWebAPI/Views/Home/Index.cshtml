@@ -7,7 +7,7 @@
 </div>
 
 <div id="appArea" class="row" style="display: none">
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div id="webapiCalls">
             <h3>WebAPI Calls</h3>
             
@@ -21,12 +21,8 @@
             <br />
         </div>
     </div>
-    <div class="col-md-4">
-        <div id="messages">
-            <h3>Messages</h3>
-        </div>
-    </div>
-    <div class="col-md-4">
+    
+    <div class="col-md-3">
         <div id="registerForNotification">
             <h3>Register For Notification</h3>
 
@@ -40,10 +36,18 @@
             <br />
         </div>
     </div>
+    
+    <div class="col-md-6">
+        <div id="messages">
+            <h3>Messages</h3>
+            <textarea id="output" cols="80" rows="60" style="width: 550px; max-width: none;"></textarea>
+        </div>
+    </div>
 </div>
 
 @section scripts
 {
+    <script src="~/Scripts/app/Utils.js"></script>
     <script src="~/Scripts/app/WebApiClient.js"></script>
     <script src="~/Scripts/app/Init.js"></script>
 }

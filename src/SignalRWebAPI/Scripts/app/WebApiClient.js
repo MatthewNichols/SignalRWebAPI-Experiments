@@ -1,7 +1,7 @@
 ﻿window.webApiClient = (function ()
 {
     function callChannel(channel, message) {
-        console.log("callChannel(channel)", channel, message);
+        utilities.log("callChannel(channel)", channel, message);
 
         $.ajax({
             url: "/api/channel",

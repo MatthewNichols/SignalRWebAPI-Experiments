@@ -167,6 +167,8 @@
     <None Include="Properties\PublishProfiles\SignalRWebAPI.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\app\Init.js" />
+    <Content Include="Scripts\app\signalRService.js" />
+    <Content Include="Scripts\app\Utils.js" />
     <Content Include="Scripts\app\WebApiClient.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
